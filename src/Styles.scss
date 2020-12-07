@@ -1,0 +1,9 @@
+// Global styles
+@import "./components/Global/Variables.scss";
+@import "./components/Global/Base.scss";
+@import "./components/Global/Mixins.scss";
+
+// Component styles
+@import "./components/Nav/Nav.scss";
+@import "./components/Banner/Banner.scss";
+@import "./components/Row/Row.scss";
