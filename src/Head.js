@@ -14,7 +14,10 @@ function Head() {
                     property="og:description"
                     content="A Netflix Interface created using React"
                 />
-                <meta property="og:url" content="" />
+                <meta
+                    property="og:url"
+                    content="https://netflix-clone-b8973.web.app"
+                />
             </Helmet>
         </HelmetProvider>
     );

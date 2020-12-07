@@ -1,5 +1,6 @@
 import React from "react";
 
+import Head from "./Head.js";
 import Nav from "./components/Nav/Nav";
 import Banner from "./components/Banner/Banner";
 import Row from "./components/Row/Row";
@@ -11,6 +12,7 @@ import "./Styles.scss";
 function App() {
     return (
         <div className="app">
+            <Head />
             <Nav />
             <Banner />
             <Row

@@ -2,6 +2,7 @@
     color: var(--white);
     min-height: 448px;
     object-fit: contain;
+    overflow: hidden;
     position: relative;
 
     .banner__content {
