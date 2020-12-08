@@ -22,8 +22,10 @@
             width: 100%;
             transition: transform 450ms;
 
-            &:hover {
-                transform: scale(1.08);
+            @include respond(mobile) {
+                &:hover {
+                    transform: scale(1.08);
+                }
             }
         }
 
@@ -31,8 +33,10 @@
             height: 250px;
             max-height: 250px;
 
-            &:hover {
-                transform: scale(1.09);
+            @include respond(mobile) {
+                &:hover {
+                    transform: scale(1.09);
+                }
             }
         }
     }
